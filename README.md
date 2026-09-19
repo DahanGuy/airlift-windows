@@ -21,15 +21,15 @@ Or if it dosent see the 'pip' command:
 python -m pip install pymobiledevice3
 ```
 
-Then install [iTunes](https://support.apple.com/106372) (not from the Microsoft Store) and download 'airlift.py' from this repo (or clone the repo), and run 'airlift.py' using Python:
+Then install [iTunes](https://support.apple.com/106372) (not from the Microsoft Store) and download `airlift.py` from this repo (or clone the repo), and run `airlift.py` using Python:
 
 ```
 python airlift.py
 ```
 
-Which will output instructions on how to use airlift.py.
+Which will output instructions on how to use `airlift.py`.
 
-You can also 'import airlift' if you want to use it in your Python tool.
+You can also `import airlift` if you want to use it in your Python tool.
 
 ## Paths
 Fresh-file writes were confirmed in the following directories:
