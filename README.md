@@ -21,7 +21,7 @@ Or if it dosent see the 'pip' command:
 python -m pip install pymobiledevice3
 ```
 
-Then install [iTunes](https://support.apple.com/106372) (not from the Microsoft Store) and download `airlift.py` from this repo (or clone the repo), and run `airlift.py` using Python:
+Then install 64-bit [iTunes](https://support.apple.com/106372) and download `airlift.py` from this repo (or clone the repo), and run `airlift.py` using Python:
 
 ```
 python airlift.py
@@ -54,6 +54,6 @@ Reading a file moves it to Media on the iOS device using the exploit, copies it 
 As of now, airlift (and airlift-windows) do **not** work on the MobileGestalt plist.
 
 ## How did you make it work on Windows
-I used AI to reverse-engineer the AirTrafficHost.dll that comes with the Apple Mobile Device USB Driver (or its something else but it comes with iTunes) in `C:\Program Files\Common Files\Apple\Mobile Device Support`
+I used AI to reverse-engineer the AirTrafficHost.dll that comes with Apple Mobile Device Support in `C:\Program Files\Common Files\Apple\Mobile Device Support`
 
 Then I told it to write a Python CLI script that uses AirTrafficHost.dll (and its dependencies) and pymobiledevice3 to communicate with the iOS device and run the exploit on Windows.
