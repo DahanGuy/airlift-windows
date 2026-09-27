@@ -1,4 +1,8 @@
 # airlift-windows
+
+> [!NOTE]
+> This project includes AI-generated code.
+
 [airlift](https://github.com/0xjohnnydev/airlift) is a PoC sandbox escape for iOS that needs a Mac to work.
 
 airlift-windows brings this to Windows using Python.
